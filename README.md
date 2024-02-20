@@ -1,6 +1,7 @@
-<<<<<<< HEAD
-# SpringBoot-MicroService
-=======
-# spring-boot-microservices-new
-This repository contains the latest source code of the spring-boot-microservices tutorial
->>>>>>> master
+- 🏢 TheProject follows a microservices architecture, which involves building separate services for different functionalities.
+- ⚙️ Spring Cloud provides a set of tools and patterns to build reliable microservices, including service discovery, centralized configuration, and distributed tracing.
+- 💻 The product service handles creating and viewing products, while the order service handles placing orders and interacting with the inventory and notification services.
+- 📦 Integration tests are written using Testcontainers to ensure the services work correctly together.
+- 🛒 The order service includes a one-to-many relationship between orders and order line items, which are mapped using domain models.
+- 🖥️ The controllers handle the API endpoints and interact with the service layer to perform business logic and database operations.
+- 📝 The MongoDB and MySQL databases are used to store the data for the product and order services, respectively.
