@@ -76,7 +76,13 @@
         </dependency>
 
         <dependency>
-            <groupId>com.programming.techie</groupId>
+            <groupId>com.programming</groupId>
+            <artifactId>inventory-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.programming</groupId>
             <artifactId>inventory-service</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
